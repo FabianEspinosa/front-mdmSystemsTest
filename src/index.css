@@ -241,3 +241,24 @@ table > tbody > tr > td {
         transform: translateY(0);
     }
 }
+
+#identity{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+}
+#identity .titleTest {
+    font-size: 25px;
+    font-weight: bold;
+}
+#identity .subtitleTest {
+    color: #92c73e;
+}
+#identity .devName {
+    font-size: 15px;
+    font-weight: bold;
+}
